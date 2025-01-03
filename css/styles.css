@@ -11,6 +11,9 @@ a{
 h1 h2 h3 h4{
     font-family: 'Advent Pro', sans-serif;
 }
+h3{
+    margin: 40px 0;
+}
 p{
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 40px;
@@ -125,6 +128,7 @@ header::before{
     color: #6c464e;
     position: relative;
     text-align: center;
+    padding: 40px 0;
 }
 
 #nyheter h1{
@@ -133,7 +137,7 @@ header::before{
 #nyheter p{
     font-size: 32px;
 }
-#nyheter::before{
+#nyheter::before {
     content: '';
     display: block;
     top: 0;
@@ -141,7 +145,9 @@ header::before{
     height: 100%;
     background: transparent;
     position: absolute;
+    pointer-events: none;
 }
+
 
 #nyheter .cont-text{
     margin-top: 0;
